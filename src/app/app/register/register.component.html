@@ -1,0 +1,22 @@
+<div class="login-container">
+    <h2>Register</h2>
+    <form >
+      <div>
+        <label for="username">Email:</label>
+        <input type="email"  [(ngModel)]="email" name="email" required>
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input type="password"  [(ngModel)]="password" name="password" required>
+      </div>
+      <a [routerLink]="['/home']" class="btn btn-info" (click)="register()" >Register</a>
+      
+      <div class="row">
+        <div class ="col-6">
+          <a href="" style="text-decoration: none;"><span class="text-danger">Have an account ?</span></a>
+        </div>
+        
+      </div>
+    </form>
+  </div>
+

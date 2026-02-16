@@ -1,0 +1,58 @@
+.brand{
+    font-size :30px;
+    font-weight:bold;
+    color: #000;
+    text-decoration: none;
+    padding:0px 30px; 
+
+}
+.link{
+    text-decoration: none;
+    font-size :18px;
+    color: #000;
+    font-weight: 400;
+    padding-right:  700px;
+    
+    
+}
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Aligns items to both ends */
+    align-items: center; /* Centers items vertically */
+    padding: 10px 20px; /* Add some padding */
+}
+
+.navbar-icons {
+    display: flex; /* Ensures the icons are in a row */
+    gap: 15px; /* Space between icons */
+}
+
+@media (max-width: 768px) { /* Adjust for medium screens */
+    .navbar-icons {
+        margin-left: auto; /* Push icons to the right */
+    }
+}
+
+
+.link:hover{
+    color: blue;
+}
+.cartCount{
+    font-size: 17px;
+    color:red;
+    font-weight: bold;
+}
+@media screen and (max-width:600px){
+    .brand{
+        padding: 0px 10px;
+    }
+    
+}
+a{
+    text-decoration: none;
+    color:#000;
+    margin-right:  50px;
+}
+a:hover{
+    color:blue;
+}

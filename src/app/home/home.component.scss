@@ -1,0 +1,74 @@
+.CategorisBox{
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff;
+}
+.CategorisBox a{
+    text-decoration: none;
+    color:#000;
+}
+.CategorisContent{
+   padding:20px 20px ; 
+}
+.CategorisContent img{
+    object-fit: contain;
+    border-radius: 58%;
+    border:2px solid rgb(54,16,244);
+}
+.CategorisContent h4{
+    margin-top: 15px;
+    font-size: 18px;
+}
+.productBox{
+    background-color: #fff;
+    padding: 30px 50px;
+    border-radius: 5px;
+}
+.productImg{
+   height: 200px;
+   width: 90%; 
+}
+.productContent img{
+    width: 100%;
+    height:100%;
+    object-fit: contain;
+}.card-body {
+    min-height: 150px; /* Adjust as needed */
+}
+
+
+.hover-card {
+    transition: box-shadow 0.3s;
+}
+
+.hover-card:hover {
+    box-shadow: 0 4px 20px rgba(117, 115, 115, 0.2);
+}
+
+.productLink a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+    
+    text-align: center;
+    padding: 10px;
+}
+.productBox a:hover{
+    font-weight: 400;
+}
+.productImg{
+    height: 200px;
+    width:98%;
+}
+.productContent h4{
+    font-size: 16px;  
+    margin-top: 10px; 
+   }
+.productLink{
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px;
+}

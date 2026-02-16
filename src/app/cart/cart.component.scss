@@ -1,0 +1,21 @@
+.cartBox{
+    background-color: #fff;
+    padding: 50px 50px;
+}
+.cartBox img{
+    padding-left: 200px;
+}
+.img-fluid{
+    max-width: 500px;
+    height: auto;
+
+}
+.priceBox{
+    background-color: #fff;
+    padding: 30px 30px;
+}
+@media screen and (max-width:600px) {
+   .cartBox{
+    width:50%;
+   } 
+}
